@@ -1,6 +1,10 @@
 DiamondCheck — Does a forecast beat carrying last season forward?
 Created October 26, 2026. Prototype for student sports analytics submissions.
-Status: local working analysis and interactive report; not yet submitted.
+Submitted October 26 to AQX Sports Analytics Data Bowl 4.0 and NextSpark Hacks.
+Both platform submission confirmations were verified; judging is pending.
+Public project: https://devpost.com/software/diamondcheck
+Captioned demonstration: https://youtu.be/CHFMkVDF-CQ (116 seconds).
+The same project is disclosed in both entries, with full AI-assistance credits.
 
 OPEN THE RESULT
 Open DiamondCheck.html in a modern browser. It is a standalone interactive
