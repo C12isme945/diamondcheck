@@ -1,0 +1,18 @@
+{
+  "original_source": "https://sabr.org/lahman-database/",
+  "actual_csv_transport": "Mycelium public mirror",
+  "mirror_commit": "1a94791aa697cc817c8dbbde007a2b490507652b",
+  "pinned_csv_url": "https://raw.githubusercontent.com/myceliumdata/lahman-seed/1a94791aa697cc817c8dbbde007a2b490507652b/lahman_1871-2025_csv/Teams.csv",
+  "csv_bytes": 701384,
+  "csv_sha256": "0e7afdd8b837d0edaca770a28817eec6613bd8255979c1be6e3f5827f4b88fd6",
+  "official_readme_url": "https://sabr.box.com/shared/static/qtgh1olzcaauz5x234wqx8huixizff8l.txt",
+  "official_readme_sha256": "8f3d8f12b638887e4d182561a668e8103e11fbe1483019cae6d12a4c67cc3aab",
+  "official_csv_bit_identity_verified": false,
+  "license": "CC-BY-SA-3.0",
+  "downloaded_date": "2026-10-26",
+  "software_versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scikit_learn": "1.9.1"
+  }
+}

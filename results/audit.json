@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "real_holdout_predictions_reconstructed": 240,
+  "calibration_rows_reconstructed": 120,
+  "max_prediction_difference": 8.881784197001252e-16,
+  "source_hash_verified": true,
+  "all_inputs_from_previous_season": true,
+  "interval_radius_and_empirical_coverage_verified": true,
+  "platform_submission": false
+}

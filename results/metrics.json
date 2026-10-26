@@ -1,0 +1,54 @@
+{
+  "train_rows": 894,
+  "calibration_rows": 120,
+  "test_rows": 240,
+  "train_years": [
+    1980,
+    2011
+  ],
+  "calibration_years": [
+    2012,
+    2015
+  ],
+  "test_years": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "features": [
+    "prior_rpg",
+    "prior_obp",
+    "prior_slg",
+    "prior_bb_per_ab",
+    "prior_so_per_ab",
+    "prior_league_rpg"
+  ],
+  "model": "Training-only StandardScaler + Ridge(alpha=10)",
+  "model_mae": 0.33830400818981016,
+  "baseline_mae": 0.40358919050959147,
+  "baseline": "Previous season runs/game for same franchise",
+  "mae_improvement": 0.06528518231978137,
+  "improvement_95pct_season_bootstrap": [
+    0.03705725116302175,
+    0.09110020841463867
+  ],
+  "nominal_interval_coverage": 0.9,
+  "calibration_radius": 0.6969300283326785,
+  "observed_test_coverage": 0.8958333333333334,
+  "covered_rows": 215,
+  "excluded_years": [
+    2020,
+    2021
+  ],
+  "exclusion": "Both target and preceding season must have at least 100 games; expansion teams without an immediately preceding season also omitted.",
+  "caveat": "One frozen historical split; no causal, betting, player-level, future-season or live-deployment claim. Nominal interval coverage assumes exchangeability, which era changes and correlated teams can violate.",
+  "tuning": "Features, splits, alpha=10 and seed fixed before first holdout evaluation; no parameter search.",
+  "created_date": "2026-10-26",
+  "ai_assistance": "OpenAI Codex generated implementation, validation, documentation and presentation; no paid model calls.",
+  "data_sha256": "0e7afdd8b837d0edaca770a28817eec6613bd8255979c1be6e3f5827f4b88fd6"
+}
