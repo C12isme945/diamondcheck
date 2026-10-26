@@ -18,8 +18,11 @@ Python 3.12+ with numpy, pandas and scikit-learn:
   python analyze.py
   python audit_results.py
   python -m unittest test_leakage.py
+  python review.py --year 2025 --team NYY
 The committed data snapshot lets these commands work without network access.
 The HTML is regenerated from report_template.html and the actual results.
+review.py displays one recorded historical holdout forecast, its baseline,
+calibration range and observed outcome; it does not forecast a future season.
 
 METHOD
 Predict a team's next-season runs per game from the immediately preceding
